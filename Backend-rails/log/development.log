@@ -1,0 +1,88 @@
+Started GET "/movies" for ::1 at 2021-09-09 11:50:07 -0500
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 43446ms (ActiveRecord: 0.0ms | Allocations: 76772)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `index'
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/movies" for ::1 at 2021-09-09 11:51:02 -0500
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1066ms (Allocations: 5234006)
+
+
+  
+NoMethodError (undefined method `json' for #<MoviesController:0x007fba77fac6f0>
+Did you mean?  JSON):
+  
+app/controllers/movies_controller.rb:6:in `index'
+Started GET "/movies" for ::1 at 2021-09-09 11:51:55 -0500
+Processing by MoviesController#index as HTML
+Completed 200 OK in 824ms (Views: 569.5ms | Allocations: 1277548)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 11:54:29 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 487ms (Views: 312.4ms | Allocations: 1284042)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 11:54:38 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 688ms (Views: 354.7ms | Allocations: 1295989)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 11:55:02 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 268ms (Views: 157.2ms | Allocations: 1284477)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 11:58:39 -0500
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MoviesController#index as */*
+Completed 200 OK in 87ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 5650)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 12:01:19 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 93ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 4673)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 12:01:51 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 70ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4669)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 12:02:11 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 70ms (Views: 25.8ms | ActiveRecord: 0.0ms | Allocations: 4669)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 12:02:21 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 46ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4677)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 12:02:27 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 44ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 4671)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 12:03:18 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 59ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 4669)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 12:08:16 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 75ms (Views: 7.5ms | Allocations: 4672)
+
+
+Started GET "/movies" for ::1 at 2021-09-09 12:08:18 -0500
+Processing by MoviesController#index as */*
+Completed 200 OK in 67ms (Views: 3.8ms | Allocations: 4672)
+
+
